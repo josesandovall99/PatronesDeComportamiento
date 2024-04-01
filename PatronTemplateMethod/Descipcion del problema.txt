@@ -1,0 +1,21 @@
+Problema a resolver
+
+Como ejemplo, imaginemos una empresa que posee socios, 
+clientes, empleados, etc. 
+Cuando se les solicite que se identifiquen, 
+cada uno lo realizará de distinta manera: 
+quizas un empleado tiene un legajo, 
+pero un cliente tiene un numero de cliente, etc. 
+
+Cuando se debe utilizar 
+
+    * Se quiera factorizar el comportamiento común de varias subclases.
+    * Se necesite implementar las partes fijas de un algoritmo una sola vez y 
+      dejar que las subclases implementen las partes variables.
+    * Se busque controlar las ampliaciones de las subclases, convirtiendo 
+      en métodos plantillas aquéllos métodos que pueden ser redefinidos.
+
+Este patrón se vuelve de especial utilidad cuando es necesario realizar un 
+algoritmo que sea común para muchas clases, 
+pero con pequeñas variaciones entre una y otras. 
+En este caso, se deja en las subclases cambiar una parte del algoritmo.
